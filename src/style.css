@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: blue;
+	height: 100%;
+}
+
+.container {
+	position: relative;
+    display: block;
+}
+
+.content {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.header {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+#game {
+    background-color: greenyellow;
+    height: 700px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+#left__field {
+    float: left;
+}
+
+
+#left__field h5 {
+    color: darkmagenta;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 30px;
+    color: gold;
+}
+
+#score {
+    color: blue;
+}
+
+#losses {
+    color: red;
+}
+
+.ball {
+    border: black solid 2px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+}
+
+.needle {
+    border: black solid 1px;
+    position: absolute;
+}
+
+button {
+    padding: 20px 20px;
+    font-size: 20px;
+    margin: 20px auto;
+}

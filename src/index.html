@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Тестовое задание</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Игра лопай</h1>
+        </div>
+
+        <div class="content">
+            <div class="content__left" id="left__field">
+                <h5>Счет</h5>
+                <p><span id="content__score">0</span>/<span id="content__losses">0</span></p>
+                <h5>Таймер</h5>
+                <p id="content__timer">60</p>
+            </div>
+
+            <div id="game">
+
+            </div>
+
+            <div class="field" id="right__field">
+                <button onclick="start_game()" lass="field__start">Старт</button>
+                <button onclick="stopped_game()" class="field__stop">Стоп</button>
+            </div>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
